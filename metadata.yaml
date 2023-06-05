@@ -1,0 +1,19 @@
+composer:
+  last: Aumann
+  first: Franz Josef
+title: Missa Sancti Martini
+id: DorA I.7
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 clno (C), timp (C–G), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: A 18
+    rism: 600037833
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/637.html
+    license: public domain
+    principal: true
+imslp:
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G
