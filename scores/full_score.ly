@@ -6,7 +6,7 @@
 \book {
   \bookpart {
     \section "1" "Kyrie"
-    % \addTocEntry
+    \addTocEntry
     \paper { indent = 3\cm }
     \score { %\articulate
       <<
@@ -18,7 +18,6 @@
         >>
         \new Staff {
           \set Staff.instrumentName = \transposedTimp "C" "" "G" ""
-          % \transpose c c
           \KyrieTimpani
         }
         \new StaffGroup <<
@@ -69,7 +68,7 @@
         \new FiguredBass { \KyrieBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 60 }
+      \midi { \tempo 4 = 60 } %100
     }
   }
 }
