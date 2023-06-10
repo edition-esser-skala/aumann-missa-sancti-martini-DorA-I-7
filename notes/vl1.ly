@@ -95,3 +95,149 @@ KyrieViolinoI = {
     c4 r r\fermata \bar "|." %98 finis
   }
 }
+
+GloriaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoGloria
+    R1*2
+    r16 g'\fE a h c d e f g8 g\p g g
+    r g g g r f f f
+    r a a a r a a a %5
+    r g g g h,16\f g' g h, h g' g h,
+    g' g a a d, d h' h c8 c h h
+    c4 r e,8 c16 a f' e e gis,
+    a8 e \tuplet 3/2 8 { r16 a h c[ h a] } h c d c d h c d
+    c h a8 r e' f16 d d f gis, f' e8 %10
+    e16 c c e fis, e' d8 d16 h h d e, d' c8
+    b8. d32 c b8 a \tuplet 3/2 8 { gis16[ e' d] c h a } h,8 gis'
+    a,4 r r2
+    r r16 e'' c a f' e e gis,
+    a8 a, r4 r r16 a'' f d %15
+    h8 g, r4 r r8 g'~\p
+    g16 f a8~ a16 g h8~ h16 a c8~ c16 h d8
+    c g'16 h, c8 c \appoggiatura e16 d8 c16 h c8 h16 c
+    \appoggiatura e d8 c16 h c4 r2
+    g'8\f e16 c a' g g h, c8 c, \tuplet 3/2 8 { r16 c' d e[ d c] } %20
+    d c d e f f e d e c h c d,8 h'
+    c,4 r r2
+    r16 g'' e c a' g g h, c8 c, r4
+    r8 d16\p g, e' g, c g h g d' g, e' g, c g
+    a4 r r2 %25
+    R1*2
+    r2 r8 g''\f \tuplet 3/2 8 { g16[ a h] h, c d
+    c h a } a'8 \tuplet 3/2 8 { a16[ g fis] e d c } h8 c16   e\appoggiatura e8 d8. c16
+    \tuplet 3/2 8 { h[ a g] c d e } \appoggiatura e8 d8. c16 h32 a g fis g16[ g,] a8 fis' %30
+    g4 r r2
+    R1*3
+    r2 r8 d \tuplet 3/2 8 { d'16[ e fis] fis, g a %35
+    g fis e } e'8 \tuplet 3/2 8 { e16[ d cis] h a g } fis8 g16 h \appoggiatura h8 a8. g16
+    \tuplet 3/2 8 { fis[ e d] g a h } \appoggiatura h8 a8. g16 fis32[ g a h] a16. d,32 e8 cis
+    d4 r r2
+    r8 d \tuplet 3/2 8 { d'16[ e fis] fis, g a g fis e } e'8 \tuplet 3/2 8 { e16[ d cis] h a g }
+    fis8 d r4 r2 %40
+    r r4 r8 d'~\p
+    d16 d, cis'8 r cis~ cis16 d, h'8 r h~
+    h16 cis, a'8 r4 r2
+    r8 a\fE \tuplet 3/2 8 { a'16[ h cis] cis, d e d cis h } h'8 \tuplet 3/2 8 { h16[ a gis] fis e d
+    cis h a } e'8 \tuplet 3/2 8 { e16[ d cis] h a g! fis e d } a''8 \tuplet 3/2 8 { a16[ g fis] e d c %45
+    h a g c[ d e] } \appoggiatura e8 d8. c16 \tuplet 3/2 8 { h[ a g] c d e } \appoggiatura e8 d8. c16
+    h32[ a g fis] g16. h,32 a8 fis' g,16 g' g h h d d g
+    g d d h h g g h d h h d g d d g
+    g e e c c e e g g e e c g' b, b g'
+    g a, a f' f a, a f' f g, g e' e g, g e' %50
+    e f, f d' d f, f d' d e, e c' c e e g
+    g d d g g d d h' h c, c a' a c, c a'
+    a h, h g' g h, h g' g a, a f' f a, a f'
+    f d d f e c' c e, d c' c d, d h' h d,
+    c' g e c g,8 h' <e c e, c>4 r\fermata \bar "||" %55
+    \key c \dorian \tempoQuiTollis r8 c c c r c c c \noBreak
+    r h h h r d d d
+    r c c c r c c c
+    r a! d c r e e e
+    r d d d d b'\p fis( g) %60
+    es!( d) cis( d) g, g g g
+    g g fis fis g g'\f g g
+    r a a a r a a a
+    r g g g r as as as
+    r g g g r g g g %65
+    r es es es r es es es
+    r d d d r d c c
+    r fis g g r g fis fis
+    g d\p \slurDashed es!( cis) d( b) a( g)-\critnote \slurSolid
+    e' e e e d c b b \noBreak %70
+    b b b b a a a a
+    \key c \major \tempoQuiSedes
+      g16\f g, g h h d d g g d d g g h h d \noBreak
+    d g, g h h d d g g h, h d d g g d
+    e c c e e g g e e c c e e g g e
+    e c' c e, e c' c e, d h' h d, d h' h d, %75
+    c d, d fis fis a a c c a' a c, c a' a c,
+    h g, g h h d d g g h h d d g g h
+    g8 cis, cis cis cis cis cis cis \noBreak
+    d16 d' d a a fis fis d d,4 r\fermata
+    \key c \dorian \tempoMiserere r8 g' g g r es es es \noBreak %80
+    r e e e r d d d
+    r d d d r c c c
+    r f f f r es! es es
+    r d es es r d d d
+    c g'\p as( fis) g( h,) c( fis,) %85
+    g f es es es es es es \noBreak
+    d d d d c2\fermata \bar "||"
+    \twofourtime \key c \major \time 2/4 \tempoQuoniam
+      g'8\fE h16 d d c h a \noBreak
+    g h d,4 g16 h
+    a c h d d c h a %90
+    h g d h g8 g''
+    \tuplet 3/2 8 { fis16 e d } e8 \tuplet 3/2 8 { e16 d cis } d8
+    d,8. c'16 h8 h16 c
+    \tuplet 3/2 8 { d[ h g] e' c a } e8 fis
+    g g, r4 %95
+    g'8 h16 d d c h a
+    g8 g, r4
+    d''8 fis16 d a' g fis e
+    d8 d, r4
+    R2 %100
+    r8 e'\p e e
+    d d, d4
+    R2*4 %106
+    d'8\f fis16 a a g fis e
+    d8 fis,16 a a g fis e
+    \tuplet 3/2 8 { fis e d } gis8 gis gis
+    \tuplet 3/2 8 { a16 a, g' fis[ e d] } e4 %110
+    d r
+    d'8 fis16 a a g fis e
+    d8 d, r4
+    R2
+    d8 fis16 a d c! h a %115
+    h8 g, r4
+    R2
+    g'8 h16 d d c h a
+    h8 g, r4
+    R2 %120
+    r4 g''~\p
+    g fis~
+    fis e
+    d8 c h g'
+    g g fis fis %125
+    g\f h,16 d d c h a
+    h g h d d c h a
+    h( c) c( d) d( e) e( fis)
+    \tuplet 3/2 8 { fis g a } d,8 \tuplet 3/2 8 { fis16 g a } c,8
+    \tuplet 3/2 8 { h16 c d e[ c a] } g8 fis %130
+    g h16 d g d h g
+    fis d a' fis d' c h a
+    h g h d g f! e d
+    e c e g e g d g
+    c, a' f d h8 g'16 h, %135
+    c8 g c h
+    a h16 c d e c d
+    h8 c16 d e f d e
+    c8 d16 e d e c d
+    h g' e c' d,8 h' %140
+    c e,16 g g f e d
+    e8 e,16 g g f e d
+    e8 e' d h'
+    c4 r\fermata \bar "|." %144 finis
+  }
+}
