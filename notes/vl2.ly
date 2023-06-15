@@ -241,3 +241,137 @@ GloriaViolinoII = {
     c4 r\fermata \bar "|." %144 finis
   }
 }
+
+CredoViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoCredo
+    c8\fE d e c f d g g,
+    e' d e c f d e f
+    g f e d c d e c
+    d e fis d g g, h g
+    c a d d g, a h g %5
+    c d e c f! d g g,
+    c d c h a h c a
+    h' a gis e a, h c a
+    e' fis gis e a g fis e
+    d e fis d g fis e d %10
+    c a h c d c d d
+    g, a h g c a d d
+    g, a h g a g a h
+    c d e c d c d e
+    f g f e d c d h %15
+    e d c d e d e e
+    a, h c a d e f d
+    g! a h g c, d e f
+    g g, g' a16 h c8 e d e
+    f d'~ d16 f, g f e8 c'~ c16 e, f e %20
+    \tieDashed d8 h'~ h16 d, e d c8 a'~ a16 c, d c \tieSolid
+    h8 g' g f16 e d8 c' d, h' \noBreak
+    c2 r\fermata \bar "||"
+    \tempoEtIncarnatus R1*9 %32
+    f,16(\p a f c) a( c f c) d( f d b) d( f d b)
+    c( f c a) c( f c a) b( e) e( g) g( b,) b( c)
+    a( c a f) d( g f e) f( a) a( c) c( a) a( f) %35
+    e( g) g( c) c( e) e( g) g( c,) c( g') g( b,) b( c)
+    a( c) c( a) a( f') f( a,) f'( a) a( f) a( c) c( a)
+    d,( g) g( b) b( g) g( d) c( f) f( a) a( f) f( c)
+    b( e) e( g) g( b,) b( c) c( a) a( c) c( f) f( c)
+    d( b) b( d) d( g) g( d) e( c) c( d) e( g) e( c) %40
+    f( a) a( f) f( a) a( f) f( as) as( f) f( as) as( f)
+    c( e) e( g) b,( e) e( g) a,( c) c( f) f( es) es( c)
+    d( h) h( c) c( b) b( c) a( f') f( a,) g( e') e( g,) \noBreak
+    <a f'>2 r\fermata \bar "||"
+    \time 3/4 \tempoEtResurrexit \newSpacingSection
+      c,4\fE e g \noBreak %45
+    c16 g a h c d e f g a h c
+    a c, c a' a c, c a' a c, c a'
+    g c, c g' g c, c g' g c, c g'
+    f d, d f' f d, d f' f d, d f'
+    e8 c' d,4 h' %50
+    c,, e g
+    c8 c c c h h
+    c4 r r
+    R2.
+    r4 r e %55
+    d8 d c c d d
+    d4. c8 h4
+    c8^\critnote c a a d d
+    h4 g a
+    h8 a g a h c %60
+    d e f!4 e8 d
+    e d^\critnote c g e c
+    a'16 c c a a f' f a, a f' f a,
+    g c c g g e' e g, g e' e g,
+    f d' d f, f d' d f, e c' c e, %65
+    e' c' c e, d c' c d, d h' h d,
+    c'4 e,8 f e fis16 gis
+    a16 a, a a' a a, a a' a a, a a'
+    gis e e h' h e, e h' h e, e h'
+    c e, e c' c e, e c' c e, e c' %70
+    d f, f d' d f, f d' d f, f d'
+    c e, e c' c e, e c' h d, d h'
+    h e, e h' h e, e h' h e, e h'
+    c e, e c' c d h c a h g a
+    a d, d a' a d, d a' a d, d a' %75
+    h d, d h' h c a h g a f g
+    e c' c e, e c' c e, e c' c e,
+    d h' h d, d h' h d, d h' h d,
+    c a' a c, c a' a c, c a' a c,
+    h e h gis e4 r %80
+    \time 4/4 \tempoEtMortuos R1*3
+    \time 3/4 \tempoCuius r16 e gis h e h h e e h h e
+    c a c e a e e a a e e a %85
+    f d f a d f, f d' d f, f d'
+    e, c e g c e, e c' c e, e c'
+    d, h d^\critnote f h d, d h' h d, d h'
+    c, a c e a a, a a' a a, a a'
+    a h, h a' a h, h a' gis h, h gis' %90
+    a e e d d c h a h,8 gis'
+    a,4 r r
+    R2.*13 %105
+    e''16\fE c' c e, e c' c e, e c' c e,
+    e c' c e, e c' c e, e c' c e,
+    d c' c d, d c' c d, d c' c d,
+    d h' h d, d h' h d, d h' h d,
+    e c' c e, e c' c e, e c' c e, %110
+    d h' h d, d h' h d, d h' h d,
+    c a' a c, c a' a c, c a' a c,
+    h h' h dis, dis h' h dis, e h' h e,
+    e c' c e, fis, e' e fis, fis dis' dis fis,
+    e' h h a a g fis e h8 dis %115
+    e4 r r
+    R2.*10 %126
+    r8 h'\p h h h h
+    r a a a a a
+    r4 h8 c d e
+    a, a d d g, g %130
+    c c c c h h
+    c4 e16\f c' c e, e c' c e,
+    d c' c d, d c' c d, d c' c d,
+    d h' h d, d h' h d, d h' h d,
+    e c' c e, c e e c g e' e g, %135
+    g e' e g, g e' e g, g e' e g,
+    fis d' d d, d d' d d, d c' c d,
+    h' g' g h, h g' g h, h g' g h,
+    c g' g c, c a' a c, c g' g c,
+    f d d f f d d f a e e a %140
+    g h, h g' g g, g g' g g, g g'
+    e g g e e c' c e, e c' c e,
+    e g, g e' e g, g e' e g, g e'
+    fis, d' d fis, d d' d d, d c' c d,
+    h' g' g h, h g' g h, h g' g h, %145
+    c e e c e c' c e, e c' c e,
+    d c' c d, d c' c d, d c' c d,
+    d h' h d, d h' h d, d h' h d,
+    e c' c e, e c' c e, e c' c e,
+    c a' a c, c a' a c, c a' a c, %150
+    h g' g h, h g' g h, h g' g h,
+    e g g e e g g e d g g d
+    c f f c c f f c h e e h
+    a d d a a d d a g c c g
+    a f' f a, c^\critnote g' g c, h g' g h, %155
+    c e e c e c' c e, d h' h d,
+    c'2^\critnote r4\fermata \bar "|." %157 finis
+  }
+}

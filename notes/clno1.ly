@@ -110,3 +110,105 @@ GloriaClarinoI = {
     e4 r\fermata \bar "|." %144 finis
   }
 }
+
+CredoClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoCredo
+    e'4\fE r8 e d4. g8
+    e4 r r f8 e
+    \pa d4. d8 \pd e4 r
+    r fis g4. g8
+    g4. fis8 g4 r8 g %5
+    e4 g a8 a g8. g16
+    g4 r r2
+    R1*2
+    r4 \pao d d r %10
+    r a' g fis8. fis16
+    g4 g2 fis4
+    g r r r8 g
+    e4 r r2
+    R1 %15
+    r4 e e4. e8
+    e4 r r f
+    \pa d4. g8 e4. e8 \pd
+    d4 d8 d e4 \pa g
+    f r8 f e4 r8 e %20
+    d4 r8 d c4 r8 d \pd
+    d4 e d4. g8 \noBreak
+    e2 r\fermata \bar "||"
+    \tempoEtIncarnatus R1*20 \noBreak %43
+    R1\fermata \bar "||"
+    \time 3/4 \tempoEtResurrexit \newSpacingSection
+      \pa c,4\fE e g \noBreak %45
+    c \pd r g'
+    a r8 a a a
+    g4 r8 g g g
+    f4 r8 f f f
+    e4 g4. g8 %50
+    e4 \pao r d
+    e r d
+    e r r
+    R2.
+    r4 r g %55
+    g g fis
+    g r g
+    g g fis
+    g r r
+    g r r %60
+    g r g
+    e e8 e e4
+    R2.*2
+    r4 r g %65
+    \pa g8 f16 e d4. d8 \pd
+    e4 r r
+    R2.
+    e4 r r
+    e r e %70
+    f r8 f e d
+    e4. e8 d4
+    e r r
+    e r r
+    f r r %75
+    d r d
+    e r e
+    d r d
+    c r e
+    e e r %80
+    \time 4/4 \tempoEtMortuos R1*3
+    \time 3/4 \tempoCuius e4 r e
+    e r e %85
+    f r d
+    e r r
+    R2.*2
+    r4 e4. e8 %90
+    e4 r r8 e
+    e4 r r
+    R2.*13 %105
+    e4\fE r r
+    e r r
+    d r r
+    r g g
+    e e4. e8 %110
+    d4 r r
+    e r r
+    R2.*26 %138
+    r4 a\fE g
+    f2 a4 %140
+    g2 f4
+    e2 r4
+    R2.*3 %145
+    r4 g e
+    f r f
+    g2^\critnote g8 f
+    g4 e r
+    R2. %150
+    r4 g g
+    e r g
+    f r \pa e
+    d \pd f g
+    a \pa g4. g8 \pd %155
+    g4 r g
+    g2 r4\fermata \bar "|." %157 finis
+  }
+}
