@@ -6,6 +6,12 @@
 \include "ees_articulate.ly"
 
 
+markOsannaDaCapo = {
+  \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \mark \markup \remark "Osanna da capo"
+}
+
+
 tempoKyrie = \tempoMarkup "Adagio"
   tempoKyrieB = \tempoMarkup "Allegro"
 tempoGloria = \tempoMarkup "Allegro"
@@ -21,6 +27,7 @@ tempoCredo = \tempoMarkup "Allegro"
 tempoSanctus = \tempoMarkup "Andante"
   tempoPleni = \tempoMarkup "Allegro"
   tempoOsanna = \tempoMarkup "Osanna · [Alla breve]"
+tempoBenedictus = \tempoMarkup "Andante"
 
 
 \include "notes/clno1.ly"

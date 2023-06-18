@@ -762,3 +762,58 @@ SanctusBassoLyrics = \lyricmode {
   cel --
   sis. %60 finis
 }
+
+BenedictusBasso = {
+  \relative c {
+    \clef bass
+    \key g \major \time 4/4 \autoBeamOff \tempoBenedictus
+    R1*9 %9
+    \mvTr g'4.\pE^\solo h8 a16([ fis)] g8 r h %10
+    a16([ fis)] g8 r d g a16 h c8 h16 a
+    h a g8 r4 r g8 h
+    a16([ fis)] d4 a'8 g16([ e)] a,4 e'8
+    fis[ g16 a] h8[ cis] d16[ cis h a] g[ fis e d]
+    h'[ a g fis] e[ d cis h] a8 g'!4 fis16[ e] %15
+    fis8 d'16 d a,8. a16 d4 r
+    R1*3
+    r2 d4 a' %20
+    fis16([ e)] d8 r a' fis16([ e)] d8 r a
+    d e16 fis e8 fis16 g fis e d8 r4
+    g d' h16([ a)] g8 r d'
+    e[ c,16 h] a8[ c'] d[ h,16 a] g8[ h']
+    e,[ c' d, h'] c,[ a' h, g'] %25
+    fis16[ e] d8 r4 r2
+    r8 d g a16 h e,8[ fis16 g] a8[ h]
+    c16[ h a g] fis[ e d c] h8 c16 c d8. d16
+    g,4 r r8 d' e fis16 fis
+    g8[ h, c a] d[ h e c] %30
+    fis[ d] g8.[ a16] h8[ g] d8. d16
+    g,4 r r2
+    R1*3 %35
+    R1\fermata \markOsannaDaCapo \bar "||" %36 finis
+  }
+}
+
+BenedictusBassoLyrics = \lyricmode {
+  Be -- ne -- di -- ctus, qui %10
+  ve -- nit, qui ve -- nit in no -- mi -- ne
+  Do -- mi -- ni, be -- ne --
+  di -- ctus, qui ve -- nit in
+  no -- _ _ _
+  _ _ _ _ _ %15
+  _ mi -- ne Do -- mi -- ni.
+
+  Be -- ne -- %20
+  di -- ctus, qui ve -- nit, qui
+  ve -- nit in no -- mi -- ne Do -- mi -- ni,
+  be -- ne -- di -- ctus, qui
+  ve -- _ _ _
+  _ _ %25
+  _ nit,
+  qui ve -- nit in no -- _
+  _ _ _ mi -- ne Do -- mi --
+  ni, in no -- mi -- ne
+  Do -- _ %30
+  _ _ _ _ mi --
+  ni. %32 finis
+}

@@ -440,3 +440,44 @@ SanctusViolinoI = {
     g\fermata \bar "|." %60 finis
   }
 }
+
+BenedictusViolinoIeII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoBenedictus
+    g'4\fE d'16 h a g a fis g8~ g16 d' h g
+    a fis g8 \tuplet 3/2 8 { d'16[ e fis] g fis e } d h c a h g fis g
+    \appoggiatura gis8 a4 r16 a a16.\trill g64 a h16. cis32 cis16.\trill h64 cis d16. e32 e16.\trill d64 e
+    fis16. g32 g16.\trill fis64 g a8 d16. cis64 h a8 d,,16 fis e8 cis
+    \tuplet 3/2 8 { d16 cis d e[ d e] fis e fis g[ fis g] } a16. d32 d,16. g32 fis8 e %5
+    d4 d'8\p d \appoggiatura { d16[ e] } f8.\f e32 d c8 h
+    \tuplet 3/2 8 { c16 h a } a,8 c'\p c \appoggiatura { c16[ d] } e8.\f d32 c h8 a
+    \tuplet 3/2 8 { h16 a g } g,8 r16 d' g h e,( gis a c) fis,( a h d)
+    \tuplet 3/2 8 { g,[ a h] c d e } \appoggiatura e8 d8. c16 h32[ a g fis] g16. g,32 h8 a\trill
+    g4 r r16 g''\p g16.\trill fis64 g g,4 %10
+    r16 g' g16.\trill fis64 g g,4 r2
+    r8 g'16\f d \tuplet 3/2 8 { c16[ d e] a, d c h[ fis g] } g,8 r4
+    R1*3 %15
+    r2 d'4\f a'16 fis e d
+    e cis d8~ d16 a' fis d e cis d8 \tuplet 3/2 8 { a'16[ h cis] d cis h }
+    a fis g e fis d cis d \appoggiatura dis8 e4 r16 a, d fis
+    h,( dis e g) cis,( e fis a) \tuplet 3/2 8 { d,[ e fis] g a h } \appoggiatura h8 a8. g16
+    fis32[ e d cis] d16. d'32 e,8 cis' d,4 r %20
+    r16 d'\p d16.\trill cis64 d d,4 r16 d' d16.\trill cis64 d d,4
+    r2 r8 d'\f \tuplet 3/2 8 { c16[ h c] a g a }
+    h8 g, r4 r16 g''\p g16.\trill fis64 g g,8 d'
+    d\trill c r c c\trill h r4
+    r16 e e16.\trill d64 e r16 d d16.\trill c64 d r16 c c16.\trill h64 c r16 h h16.\trill a64 h %25
+    a8 d,16\f d' c8.\trill h32 a h16 g h d c8.\trill h32 a
+    h8 g, r4 r2
+    R1
+    r8 \tuplet 3/2 8 { d'16\f c d e[ d e] fis e fis } g8 g, r4
+    r16 d'\p g h e,( gis a c) fis,( a h d) \tuplet 3/2 8 { g,[ a h] c d e } %30
+    \appoggiatura e8 d8. c16 h32 a g fis g8 r2
+    r4 d'8\p d \appoggiatura { d16[ e] } f8.\f e32 d c8 h
+    \tuplet 3/2 8 { c16 h a } a,8 c'8\p c \appoggiatura { c16[ d] } e8.\f d32 c h8 a
+    \tuplet 3/2 8 { h16 a g } g,8 r16 d' g h e,( gis a c) fis,( a h d)
+    \tuplet 3/2 8 { g,[ a h] c d e } \appoggiatura e8 d8. c16 h32[ a g fis] g16. g,32 h8 a\trill %35
+    g2 r\fermata \markOsannaDaCapo \bar "||" %36 finis
+  }
+}
