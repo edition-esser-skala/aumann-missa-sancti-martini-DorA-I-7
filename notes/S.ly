@@ -514,14 +514,129 @@ CredoSopranoLyrics = \lyricmode {
   men. %157 finis
 }
 
+SanctusSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoSanctus
+    \mvTr c'4.\fE^\tuttiE h8 a[ h] \once \tieDashed c4~
+    c h c8[ e d c]
+    h[ a] g4 r2
+    R1
+    e'4. d8 c[ d] e4 %5
+    d2 c4 d
+    c2 h
+    e4 e8 e c4 c
+    d d8 c h4 c8([ h)]
+    a4( h a4.) a8 \noBreak %10
+    h2. r4\fermata \bar "||"
+    \time 3/4 \tempoPleni e4 e d \noBreak
+    e e d
+    e c c
+    h8[ a g f e d] %15
+    e[ d] c4 r
+    h' h a
+    h h a
+    h h r
+    R2.*2 %21
+    e4. d8 c([ d]
+    e4) e( d)
+    e2.\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoOsanna \newSpacingSection
+      R1 \noBreak %25
+    r2 \mvTr c\fE^\tuttiE
+    d2. c4
+    h2 h
+    c1
+    h2 r %30
+    c1
+    e2. e4
+    d2 d4( c)
+    h2( c4 d)
+    g,1 %35
+    R1*4
+    g1 %40
+    e'
+    c
+    d4( c) h( a)
+    g2 a4 h
+    c2 c %45
+    f4( e) d2
+    e4( d) c c
+    d c h2
+    c1
+    c2 h %50
+    c r
+    f4(\p e) d2
+    e4( d) c c
+    d c h2
+    c1 %55
+    c2 h
+    c1
+    a2\f g
+    a\breve*1/2
+    g\fermata \bar "|." %60 finis
+  }
+}
 
+SanctusSopranoLyrics = \lyricmode {
+  San -- _ _ _
+  _ _
+  _ ctus,
 
-% San -- ctus Do -- mi -- nus De -- us Sa -- ba -- oth.
-% Ple -- ni sunt coe -- li et ter -- ra glo -- ri -- a tu -- a.
-% O -- san -- na in ex -- cel -- sis.
+  san -- _ _ _ %5
+  _ _ ctus,
+  san -- ctus
+  Do -- mi -- nus De -- us,
+  Do -- mi -- nus De -- us __
+  Sa -- ba -- %10
+  oth.
+  Ple -- ni sunt
+  coe -- li et
+  ter -- ra, et
+  ter -- %15
+  _ ra,
+  ple -- ni sunt
+  coe -- li et
+  ter -- ra
 
+  glo -- ri -- a __ %22
+  tu --
+  a.
+  %25
+  O --
+  san -- na
+  in ex --
+  cel --
+  sis, %30
+  o --
+  san -- na
+  in ex --
+  cel --
+  sis, %35
 
-% ## Benedictus
+  o -- %40
+  san --
+  na
+  in __ ex --
+  cel -- _ _
+  _ sis, %45
+  o -- san --
+  na __ in ex --
+  cel -- _ _
+  _
+  _ _ %50
+  sis,
+  o -- san --
+  na __ in ex --
+  cel -- _ _
+  _ %55
+  _ _
+  sis,
+  in ex --
+  cel --
+  sis. %60 finis
+}
+
 
 % Be -- ne -- di -- ctus, qui ve -- nit in no -- mi -- ne Do -- mi -- ni.
 % O -- san -- na in ex -- cel -- sis.

@@ -652,3 +652,113 @@ CredoBassoLyrics = \lyricmode {
   men, a --
   men. %157 finis
 }
+
+SanctusBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoSanctus
+    \mvTr c4.\fE^\tuttiE e8 f4 e8[ c]
+    d[ e16 f] g8[ f] e4 fis
+    g r r2
+    R1
+    c4.( h8 a[ h]) c4 %5
+    c( h) c( h)
+    a2 g
+    e4 gis8 e a4 a,
+    d e8 fis g4 c,
+    \once \tieDashed d2~ d4. d8 \noBreak %10
+    g,2. r4\fermata \bar "||"
+    \time 3/4 \tempoPleni c4 e g \noBreak
+    e c g'
+    c c, r
+    R2.*2 %16
+    g4 h d
+    h g d'
+    g g, g'
+    fis8[ e d c h a] %20
+    h[ a] g4 r
+    e'2 a4
+    g! f2 \noBreak
+    e2.\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoOsanna \newSpacingSection R1*10 %34
+    \mvTr c1\fE^\tuttiE %35
+    a'
+    f
+    g4( f) e( d)
+    c2 e4 fis
+    g2 g, %40
+    r g'
+    a2. g4
+    fis2 fis
+    g2.( f4)
+    e2 c' %45
+    a h4( a)
+    g2 a4( g)
+    f2 g4 f
+    e2 f
+    g1 %50
+    c,2 c'\p
+    a h4( a)
+    g2 a4( g)
+    f2 g4 f
+    e2 f %55
+    g1
+    c,
+    f2\f e
+    f\breve*1/2
+    c\fermata \bar "|." %60 finis
+  }
+}
+
+SanctusBassoLyrics = \lyricmode {
+  San -- _ _ _
+  _ _ _ _
+  ctus,
+
+  san -- ctus, %5
+  san -- ctus,
+  san -- ctus
+  Do -- mi -- nus De -- us,
+  Do -- mi -- nus De -- us
+  Sa -- ba -- %10
+  oth.
+  Ple -- ni sunt
+  coe -- li et
+  ter -- ra,
+
+  ple -- ni sunt %17
+  coe -- li et
+  ter -- ra, et
+  ter -- %20
+  _ ra,
+  glo -- ri --
+  a tu --
+  a.
+
+  O -- %35
+  san --
+  na
+  in __ ex --
+  cel -- _ _
+  _ sis, %40
+  o --
+  san -- na
+  in ex --
+  cel --
+  sis, o -- %45
+  san -- na __
+  in ex --
+  cel -- _ _
+  _ _
+  _ %50
+  sis, o --
+  san -- na __
+  in ex --
+  cel -- _ _
+  _ _ %55
+  _
+  sis,
+  in ex --
+  cel --
+  sis. %60 finis
+}

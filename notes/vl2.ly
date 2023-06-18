@@ -375,3 +375,68 @@ CredoViolinoII = {
     c'2^\critnote r4\fermata \bar "|." %157 finis
   }
 }
+
+SanctusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoSanctus
+    c'4.\fE h8 a h \once \tieDashed c4~
+    c h c8 e d c
+    h a g4 r2
+    R1
+    e'4. d8 c d e4 %5
+    d2 c4 d
+    c2 h
+    e4 e8 e c4 c
+    d d8 c h4 c8 h
+    a4 h a4. a8 \noBreak %10
+    h2. r4\fermata \bar "||"
+    \time 3/4 \tempoPleni e8 g g e d g \noBreak
+    e g g e d g
+    e4 c r
+    R2. %15
+    r4 g'16-! e( d c) g'-! e( d c)
+    h8 d d h a d
+    h d d h a d
+    h4 g r
+    R2. %20
+    r4 d'16 h a g g' f! e d
+    e4. d8 c d
+    e2 d4 \noBreak
+    e2.\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoOsanna \newSpacingSection
+      c,1\fE \noBreak %25
+    a'
+    f
+    g4 f e d
+    c2 e4 fis
+    g2 g, %30
+    r g'
+    a2. g4
+    fis2 fis
+    g f
+    e r %35
+    e1
+    a2. a4
+    d,2 d
+    e g4 a
+    d,1 %40
+    R1*4
+    r2 g %45
+    a f
+    g e
+    f d
+    e d
+    d1 %50
+    e2 g\p
+    a f
+    g e
+    f d
+    e d %55
+    d1
+    e
+    f2\f g^\critnote
+    f\breve*1/2
+    e\fermata \bar "|." %60 finis
+  }
+}

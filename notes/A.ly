@@ -499,3 +499,121 @@ CredoAltoLyrics = \lyricmode {
   men, a --
   men. %157 finis
 }
+
+SanctusAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoSanctus
+    R1*2
+    \mvTr g'4.\fE^\tuttiE fis8 e[ fis] \once \tieDashed g4~
+    g fis g8[ a g f]
+    e[ f] g4 f16[ a g f] e8[ g] %5
+    f[ g16 a] g8[ f] e4 g~
+    g fis g2
+    gis4 gis8 gis e4 e
+    fis g8 a g4 a8([ g)]
+    fis4 \once \tieDashed g~ g fis8. fis16 \noBreak %10
+    g2. r4\fermata \bar "||"
+    \time 3/4 \tempoPleni g4 g g \noBreak
+    g g g
+    g g r
+    R2.*2 %16
+    g4 g fis
+    g g fis
+    g g r
+    R2.*2 %21
+    gis2 a4
+    h a2 \noBreak
+    gis2.\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoOsanna \newSpacingSection
+      \mvTr c,1\fE^\tuttiE \noBreak %25
+    a'
+    f
+    g4( f) e( d)
+    c2 e4 fis
+    g2 g, %30
+    r g'
+    a2. g4
+    fis2 fis
+    g( f)
+    e r %35
+    e1
+    a2. a4
+    d,2 d
+    e( g4 a)
+    d,1 %40
+    R1*4
+    r2 g %45
+    a f
+    g e
+    f d
+    e d
+    d1 %50
+    e2 g\p
+    a f
+    g e
+    f d
+    e d %55
+    d1
+    e
+    f2\f g^\critnote
+    f\breve*1/2
+    e\fermata \bar "|." %60 finis
+  }
+}
+
+SanctusAltoLyrics = \lyricmode {
+  San -- _ _ _ %3
+  _ _
+  _ ctus, san -- _ %5
+  _ _ ctus, san --
+  _ ctus
+  Do -- mi -- nus De -- us,
+  Do -- mi -- nus De -- us __
+  Sa -- _ _ ba -- %10
+  oth.
+  Ple -- ni sunt
+  coe -- li \xE et
+  ter -- ra, \x
+
+  ple -- ni sunt %17
+  coe -- li \xE et
+  ter -- ra, \x
+
+  glo -- ri -- %22
+  a tu --
+  a.
+  O -- %25
+  san --
+  na
+  in __ ex --
+  cel -- _ _
+  _ sis, %30
+  o --
+  san -- na
+  in ex --
+  cel --
+  sis, %35
+  o --
+  san -- na
+  in ex --
+  cel --
+  sis, %40
+
+  o -- %45
+  san -- na
+  in ex --
+  cel -- _
+  _ _
+  _ %50
+  sis, o --
+  san -- na
+  in ex --
+  cel -- _
+  _ _ %55
+  _
+  sis,
+  in ex --
+  cel --
+  sis. %60 finis
+}

@@ -486,3 +486,118 @@ CredoTenoreLyrics = \lyricmode {
   men, a --
   men. %157 finis
 }
+
+SanctusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoSanctus
+    R1*2
+    \mvTr g4.\fE^\tuttiE h8 c4 h8[ g]
+    a[ h16 c] d8[ c] h2
+    c4 r r2 %5
+    r r4 g(
+    c a) h2
+    h4 h8 h a4 a
+    a g8 fis d'4 e
+    \once \tieDashed d2~ d4. d8 \noBreak %10
+    d2. r4\fermata \bar "||"
+    \time 3/4 \tempoPleni c4 c h \noBreak
+    c c h
+    c c r
+    R2.*2 %16
+    d4 d d
+    d d d
+    d d r
+    R2.*2 %21
+    h2 a4
+    e' a,( d) \noBreak
+    h2.\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoOsanna \newSpacingSection R1*5 %29
+    \mvTr g1\fE^\tuttiE %30
+    e'
+    c
+    d4( c) h( a)
+    g2 a4 h
+    c2 c, %35
+    r c'
+    d2. c4
+    h2 h
+    c1
+    h2 r %40
+    r g
+    e2. e4
+    a2 a
+    h( g)
+    g e' %45
+    c h
+    h a
+    a g
+    g a
+    g1 %50
+    g2 e'\p
+    c h
+    h a
+    a g
+    g a %55
+    g1
+    c
+    c2\f c
+    c\breve*1/2
+    c\fermata \bar "|." %60 finis
+  }
+}
+
+SanctusTenoreLyrics = \lyricmode {
+  San -- _ _ _ %3
+  _ _ _
+  ctus, %5
+  san --
+  ctus
+  Do -- mi -- nus De -- us,
+  Do -- mi -- nus De -- us
+  Sa -- ba -- %10
+  oth.
+  Ple -- ni sunt
+  coe -- li et
+  ter -- ra,
+
+  ple -- ni sunt %17
+  coe -- li et
+  ter -- ra
+
+  glo -- ri -- %22
+  a tu --
+  a.
+
+  O -- %30
+  san --
+  na
+  in __ ex --
+  cel -- _ _
+  _ sis, %35
+  o --
+  san -- na
+  in ex --
+  cel --
+  sis, %40
+  o --
+  san -- na
+  in ex --
+  cel --
+  sis, o -- %45
+  san -- na
+  in ex --
+  cel -- _
+  _ _
+  _ %50
+  sis, o --
+  san -- na
+  in ex --
+  cel -- _
+  _ _ %55
+  _
+  sis,
+  in ex --
+  cel --
+  sis. %60 finis
+}

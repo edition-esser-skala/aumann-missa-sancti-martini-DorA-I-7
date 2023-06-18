@@ -843,3 +843,138 @@ CredoBassFigures = \figuremode {
   r2.
   r %157 finis
 }
+
+SanctusOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoSanctus
+    \mvTr c4.\fE-\tuttiE e8 f4 e8 c
+    d e16 f g8 f e4 fis
+    g \clef "treble_8" g8 h c4 h8 g
+    a h16 c d8 c h2
+    \clef bass c4. h8 a h c4 %5
+    c h c h
+    a2 g
+    e4 gis8 e a4 a,
+    d e8 fis g4 c,
+    d1 \noBreak %10
+    g,2.^\critnote r4\fermata \bar "||"
+    \time 3/4 \tempoPleni c4 e g \noBreak
+    e c g'^\critnote
+    c c, r
+    R2.*2 %16
+    g4 h d
+    h g d'
+    g g, r
+    R2.*2 %21
+    e'2 a4
+    g! f2 \noBreak
+    e2.\fermata \bar "||"
+    \clef treble \twotwotime \time 2/2 \tempoOsanna \newSpacingSection
+    << {
+      R1 \noBreak %25
+      r2 c''
+      d2. c4
+      h1
+      c
+    } \\ {
+      \mvTr c,1\fE-\tuttiE %25
+      a'
+      f
+      g4 f e d
+      c2 e4 fis
+    } >>
+    \clef "treble_8" g,1 %30
+    e'
+    c
+    d4 c h a
+    g2 a4 h
+    \clef bass c,1 %35
+    a'
+    f
+    g4 f e d
+    c2 e4 fis
+    g2 g, %40
+    r g'
+    a2. g4
+    fis1
+    g2. f4
+    e2 c' %45
+    a h4 a
+    g2 a4 g
+    f2 g4 f
+    e2 f
+    g1 %50
+    c,2 c'\p
+    a h4 a
+    g2 a4 g
+    f2 g4 f
+    e2 f %55
+    g g,
+    c1
+    f2\f e
+    f\breve*1/2
+    c\fermata \bar "|." %60 finis
+  }
+}
+
+SanctusBassFigures = \figuremode {
+  r4. <6>8 \bo <[3]> \bc <[4]> <6>4
+  <7> <3> <[6]> <6>8 <5>
+  r4 <8>8 <5\+> <3> <4\+> <6>4
+  <7> <_+> <6>8 <7> <6> <5!>
+  r4. \bo <[6]>8 <6> \bc <[6]>4. %5
+  <4 2>4 <6>8 <5> r4 <6>
+  <7> <6\\>2.
+  <_+>1
+  <8 _+>4 <\t \t>8 <6 5>4. \bo <[8 6]>8 \bc <[7 5]>
+  <5 _+>4 <6 4> <5 \t> <\t _+> %10
+  r1
+  r2.
+  <[6]>
+  r
+  r2.*2 %16
+  r2 <_+>4
+  <[6]>2 <_+>4
+  r2.
+  r2.*2 %21
+  <8 _+>4 <7 \t>2
+  <6>4 <7> <6>
+  <_+>2.
+  r1 %25
+  r
+  r
+  r
+  r
+  r %30
+  r
+  <6>2. <5>4
+  <_+>1
+  <8>2 <6!>4 <\t>
+  r1 %35
+  r
+  <6>2. <5>4
+  r1
+  r2 <6>
+  r1 %40
+  r2 <6>
+  <5>1
+  <6>2 <5>
+  r2. <\t>4
+  r1 %45
+  <6>4 <5>2.
+  <6>4 <5>2.
+  <6>4 <5>2.
+  <6>2 <6 5>
+  <4> <3> %50
+  r1
+  <6>4 <5>2.
+  <6>4 <5>2.
+  <6>4 <5>2.
+  <6>2 <[6 5]> %55
+  <4> <3>
+  r1
+  r2 <[6]>
+  r1
+  r %60 finis
+}
