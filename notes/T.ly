@@ -601,3 +601,100 @@ SanctusTenoreLyrics = \lyricmode {
   cel --
   sis. %60 finis
 }
+
+AgnusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoAgnus
+    R1*10 %10
+    r4 \mvTr c8\fE^\tuttiE c c4 h
+    r h h h8 h
+    h4 a8 a a4 e' \noBreak
+    fis2 e\fermata \bar "||"
+    \tempoDona R1*2 %16
+    r2 g,4. g8
+    a h c4 h r8 e~
+    e d4 c h8 a4
+    g8 g([ a h)] c e,[ f g] %20
+    a[ g] f16[ g a h] c8[ d e c]
+    h[ e a, d] g,[ \once \tieDashed c~ c h]
+    c4 r8 g( d'[ h a d)]
+    g,4 r8 e fis[ d e c]
+    d[ h' c d] g,4 r %25
+    R1*2
+    r2 r4 r8 c~
+    c d4 e8 f16([ e)] d8 r \once \tieDashed h~
+    h c4 d8 e16[ d] c8 r4 %30
+    r8 gis4( a8 h4) gis
+    a4. a8 h c d4
+    c r8 f4 e d8~
+    d c h4 a8 c4 a8~
+    a d4 h8 r h4 g8~ %35
+    g c4 a8 r a4 f8~
+    f h4 gis8 r gis4 a8
+    e' c16([ h)] a4 h r8 g(
+    d'[ h a d)] g,4 r
+    R1 %40
+    r2 r4 r8 e'
+    d[ c16 h] a[ h c d] e8[ d] c4
+    h8[ e a, d] g, c4 h8
+    c4 r r8 c[( d a)]
+    h4 r r8 h[( c g)] %45
+    a4 r r8 a([ h f)]
+    g4 r r8 g([ a e)]
+    f4 r r8 f([ g d]
+    e[ g c)] c c4 h
+    R1 %50
+    g4. g8 a h c16[ d e f]
+    g4 f e d
+    r8 a[ d g,] c[ f, h e,]
+    a[ d,] g([ c)] c4( h)
+    c h c r\fermata \bar "|." %55 finis
+  }
+}
+
+AgnusTenoreLyrics = \lyricmode {
+  A -- gnus De -- i, %11
+  qui tol -- lis pec --
+  ca -- ta, pec -- ca -- ta
+  mun -- di:
+
+  Do -- na %17
+  no -- bis pa -- cem, pa --
+  _ _ \xE cem, pa --
+  \x cem, pa -- cem, pa -- %20
+  _ _ _
+  _ _
+  cem, pa --
+  cem, pa -- _
+  _ cem, %25
+
+  do -- %28
+  _ na no -- bis pa --
+  _ _ _ cem, %30
+  pa -- cem,
+  do -- na no -- bis pa --
+  cem, pa -- _ _
+  cem, pa -- cem, do -- na __
+  no -- bis pa -- _ %35
+  _ cem, pa -- _
+  _ cem, do -- na
+  no -- bis pa -- cem, pa --
+  cem,
+  %40
+  pa --
+  _ _ _ _
+  _ _ _ _
+  cem, pa --
+  cem, pa -- %45
+  cem, pa --
+  cem, pa --
+  cem, pa --
+  cem, pa -- cem,
+  %50
+  do -- na no -- bis pa --
+  _ _ _ cem,
+  pa -- _
+  _ cem, __ pa --
+  cem, pa -- cem. %55 finis
+}

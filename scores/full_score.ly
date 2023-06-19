@@ -269,40 +269,106 @@
   %     \midi { \tempo 4 = 80 } % 120 – 240
   %   }
   % }
+  % \bookpart {
+  %   \section "5" "Benedictus"
+  %   \addTocEntry
+  %   \paper {
+  %     system-system-spacing.basic-distance = #20
+  %     system-system-spacing.minimum-distance = #20
+  %     systems-per-page = #4
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup \with { \smallGroupDistance } <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "vl" "1, 2" }
+  %           \BenedictusViolinoIeII
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \BenedictusBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \BenedictusBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \BenedictusOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \BenedictusBassFigures }
+  %     >>
+  %     \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16) }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
   \bookpart {
-    \section "5" "Benedictus"
+    \section "6" "Agnus Dei"
     \addTocEntry
-    \paper {
-      system-system-spacing.basic-distance = #20
-      system-system-spacing.minimum-distance = #20
-      systems-per-page = #4
-    }
     \score { %\articulate
       <<
-        \new StaffGroup \with { \smallGroupDistance } <<
-          \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "vl" "1, 2" }
-            \BenedictusViolinoIeII
-          }
+        \new StaffGroup <<
+          \new Staff <<
+            \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
+            \partCombine #'(0 . 10) \AgnusClarinoI \AgnusClarinoII
+          >>
+        >>
+        \new Staff {
+          \set Staff.instrumentName = "timp"
+          \AgnusTimpani
+        }
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \AgnusViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \AgnusViolinoII
+            }
+          >>
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \BenedictusBasso }
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \AgnusSoprano }
           }
-          \new Lyrics \lyricsto Basso \BenedictusBassoLyrics
+          \new Lyrics \lyricsto Soprano \AgnusSopranoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \AgnusAlto }
+          }
+          \new Lyrics \lyricsto Alto \AgnusAltoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \AgnusTenore }
+          }
+          \new Lyrics \lyricsto Tenore \AgnusTenoreLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \AgnusBasso }
+          }
+          \new Lyrics \lyricsto Basso \AgnusBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \BenedictusOrgano
+            \AgnusOrgano
           }
         >>
-        \new FiguredBass { \BenedictusBassFigures }
+        \new FiguredBass { \AgnusBassFigures }
       >>
-      \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16) }
-      \midi { \tempo 4 = 70 }
+      \layout { }
+      \midi { \tempo 4 = 70 } % 110
     }
   }
 }

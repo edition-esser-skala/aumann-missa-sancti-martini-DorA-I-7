@@ -481,3 +481,48 @@ BenedictusViolinoIeII = {
     g2 r\fermata \markOsannaDaCapo \bar "||" %36 finis
   }
 }
+
+AgnusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoAgnus
+    R1*10 %10
+    r4 e'\fE e d
+    g16 d h d g, h d g gis8 gis gis gis
+    gis gis a a a a a a \noBreak
+    a a a a gis2\fermata \bar "||"
+    \tempoDona R1*8 %22
+    g,4. g8 a h c4
+    h r8 e4 d c8~
+    c h a4 g8 h c16 h c d %25
+    e4 r8 e d c16 h a h c d
+    e8 d c c h e a, d
+    g, c4 h8 c e4 c8~
+    c a a4 r8 d4 h8~
+    h g g4 r8 c4 \once \tieDashed a8~ %30
+    a h4 c8 d4 h
+    a8 h c4 r8 gis a h
+    a4 r8 c h4 a
+    gis8 e' d4 c r8 a
+    d e16 f h,4 h r8 g %35
+    c d16 e a,4 a r8 a
+    h c16 d gis,4 gis r
+    r2 g4. g8
+    a h c4 h r8 e~
+    e d4 c h8 a4 %40
+    g8 h c16 h c d e4 r
+    R1*2
+    r8 e4 c a d8
+    r d4 h g c8 %45
+    r c4 a f h8
+    r h4 g e a8
+    r a4 f d g8
+    r d' e e e4 d
+    g,4. g8 a h c4 %50
+    h4. h8 c d e4
+    d8 e4 d c h8
+    c d h c a h g a
+    f g e16 f g a g2
+    g4 d' e r\fermata \bar "|." %55 finis
+  }
+}
